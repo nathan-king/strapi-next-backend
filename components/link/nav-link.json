@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_link_nav_links",
+  "info": {
+    "name": "NavLink",
+    "icon": "hand-pointer"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

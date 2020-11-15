@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navs",
+  "info": {
+    "name": "Menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.nav-link"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
